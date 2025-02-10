@@ -1,0 +1,39 @@
+
+
+Fordítás:
+
+javac walking/game/util/Direction.java
+javac walking/game/player/Player.java
+javac walking/game/WalkingBoard.java
+javac walking/game/WalkingBoardWithPlayers.java
+javac walking/game/tests/DirectionStructureTest.java
+javac walking/game/tests/PlayerStructureTest.java
+javac walking/game/tests/WalkingBoardStructureTest.java
+javac walking/game/tests/WalkingBoardWithPlayersStructureTest.java
+
+
+#### WalkingBoardTest.java
+javac -cp .:junit5all.jar walking/game/WalkingBoardTest.java walking/game/util/Direction.java walking/game/WalkingBoard.java
+
+
+
+
+./check.sh walking/game/tests/DirectionStructureTest.java walking.game.tests.DirectionStructureTest
+
+./check.sh walking/game/tests/PlayerStructureTest.java walking.game.tests.WalkingBoardWithPlayersStructureTest
+
+./check.sh walking/game/tests/WalkingBoardStructureTest.java walking.game.tests.WalkingBoardStructureTest
+
+./check.sh walking/game/tests/WalkingBoardWithPlayersStructureTest.java walking.game.tests.WalkingBoardWithPlayersStructureTest
+
+
+
+
+
+##Suite
+
+./check.sh walking/game/tests/WalkingBoardBasicTestSuite.java walking.game.tests.WalkingBoardBasicTestSuite
+
+
+
+
